@@ -2,5 +2,5 @@
   <p>Welcome, <%= current_user.email %></p>
   <p><%= link_to "Sign out", destroy_user_session_path, method: :delete %></p>
 <% else %>
-  <p><%= link_to "Sign up", new_user_registration_path, class: "btn btn-warning" %></p>
+  <p><%= link_to "Sign up", new_user_registration_path, class: "btn btn-warning btn-lg" %></p>
 <% end %>
